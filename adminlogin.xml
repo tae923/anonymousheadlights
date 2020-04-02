@@ -8,14 +8,14 @@
 
     <!--Toolbar-->
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/AdminPageToolbar"
+        android:id="@+id/admin_page_toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="@color/colorPrimaryDark"
         app:popupTheme="@style/AppTheme.PopupOverlay" >
 
         <TextView
-            android:id="@+id/ToolbarTitle"
+            android:id="@+id/admin_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@android:color/white"
@@ -26,10 +26,10 @@
 
     <!--Username Title-->
     <TextView
-        android:id="@+id/UsernameTitle"
+        android:id="@+id/user_title"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/AdminPageToolbar"
+        android:layout_below="@+id/admin_page_toolbar"
         android:layout_marginTop="100dp"
         android:layout_centerHorizontal="true"
         android:text="@string/username"
@@ -38,20 +38,20 @@
 
     <!--Username Input-->
     <EditText
-        android:id="@+id/UsernameInput"
+        android:id="@+id/user_input"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/UsernameTitle"
+        android:layout_below="@+id/user_title"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp" />
 
 
     <!--Password Title-->
     <TextView
-        android:id="@+id/PasswordTitle"
+        android:id="@+id/pwrd_title"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/UsernameInput"
+        android:layout_below="@+id/user_input"
         android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true"
         android:text="@string/password"
@@ -60,20 +60,20 @@
 
     <!--Password Input-->
     <EditText
-        android:id="@+id/PasswordInput"
+        android:id="@+id/pwrd_input"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/PasswordTitle"
+        android:layout_below="@+id/pwrd_title"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp" />
 
 
     <!--Login Button-->
     <Button
-        android:id="@+id/LoginButton"
+        android:id="@+id/login_but"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/PasswordInput"
+        android:layout_below="@+id/pwrd_input"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:text="@string/login" />
