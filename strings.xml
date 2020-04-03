@@ -10,9 +10,29 @@
             The logo of the developer group of this app, Anonymous Headlights.
             The logo shows a silhouette of a male deer in front of headlights.
     </string>
+    
     <string name="today">Today</string>
     <string name="tomorrow">Tomorrow</string>
     <string name="overmorrow">Overmorrow</string>
     <string name="goToCalen">Go To Full Calendar</string>
+    
+    <string name="no_settings">Notification Settings</string>
+    <string name="ad_login">Admin Login</string>
+    <string name="ad_event">Add Event</string>
+
+    <string name="string_edit">Edit</string>
+    <string name="string_delete">Delete</string>
+    <string name="string_save">Save</string>
+    <string name="ev_details">Event Details</string>
+    <string name="event">Event: </string>
+    <string name="string_desc">Description: </string>
+
+
+    <string name="string_name">Name: </string>
+    <string name="string_building">Building: </string>
+    <string name="string_room">Room: </string>
+    <string name="string_date">Date: </string>
+    <string name="string_time">Time: </string>
+    <string name="string_details">Details: </string>
     
 </resources>
