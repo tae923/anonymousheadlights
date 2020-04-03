@@ -35,4 +35,13 @@
     <string name="string_time">Time: </string>
     <string name="string_details">Details: </string>
     
+    <!-- notification settings -->
+    <string name="notifications">Notification Settings</string>
+    <string name="allNotifStr">Turn On All Notifications</string>
+    <string name="kennedy">Kennedy Sports and Recreation Center</string>
+    <string name="ellis">Ellis Hall</string>
+    <string name="vlb">Suzzane von Liebig Center for Science</string>
+    <string name="bac">Brumbaugh Academic Center</string>
+
+    
 </resources>
