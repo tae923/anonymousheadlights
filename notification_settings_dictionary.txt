@@ -1,0 +1,24 @@
+<!-- Notification Settings Page Dictionary
+	Toolbar notification_toolbar
+	TextView notification_title
+
+	All settings:
+	TextView allNotifStr
+	Switch allNotif
+
+	Kennedy:
+	TextView kennedyStr
+	Switch kennedyNotif
+
+	Ellis:
+	TextView ellisStr
+	Switch ellisNotif
+
+	VLB:
+	TextView vlbStr
+	Switch vlbNotif
+
+	BAC:
+	TextView bacStr
+	Switch bacNotif
+-->
