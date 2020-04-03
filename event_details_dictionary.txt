@@ -1,0 +1,26 @@
+<!-- Event Details Page Dictionary
+        Toolbar home_toolbar
+
+        Button edit_button
+        Button delete_button
+
+        TextView ev_details
+        ImageView event_image
+
+        TextView prompt_evname
+        TextView cal_list_name
+
+        TextView prompt_evbuilding
+        TextView cal_list_building
+
+        TextView prompt_evroom
+        TextView cal_list_room
+
+        TextView prompt_evtime
+        TextView cal_list_time
+
+        TextView prompt_evdesc
+        TextView cal_list_desc
+
+        Button save_button
+    -->
