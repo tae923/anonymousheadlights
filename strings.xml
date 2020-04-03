@@ -4,4 +4,15 @@
     <string name="password">Password</string>
     <string name="login">Login</string>
     <string name="AdminLogin">Admin Login</string>
+    
+    <string name="homepage">Home Page</string>
+    <string name="logoDescript">
+            The logo of the developer group of this app, Anonymous Headlights.
+            The logo shows a silhouette of a male deer in front of headlights.
+    </string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="overmorrow">Overmorrow</string>
+    <string name="goToCalen">Go To Full Calendar</string>
+    
 </resources>
