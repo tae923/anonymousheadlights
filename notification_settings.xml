@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/notification_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimaryDark"
+        app:popupTheme="@style/AppTheme.PopupOverlay" >
+
+        <TextView
+            android:id="@+id/notification_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="@string/notifications"
+            android:textSize="20sp" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <!-- all -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/allNotifStr"
+        android:id="@+id/allNotifStr"
+        android:layout_below="@id/notification_toolbar"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/allNotif"
+        android:layout_below="@id/notification_toolbar"
+        android:layout_toRightOf="@id/allNotifStr"
+        android:layout_toEndOf="@id/allNotifStr"
+        android:padding="14dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="55dp"
+        android:layout_marginEnd="55dp" />
+
+    <!-- kennedy -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/kennedy"
+        android:id="@+id/kennedyStr"
+        android:layout_below="@id/allNotifStr"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/kennedyNotif"
+        android:layout_below="@id/allNotif"
+        android:layout_toRightOf="@id/kennedyStr"
+        android:layout_toEndOf="@id/kennedyStr"
+        android:padding="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="55dp"
+        android:layout_marginEnd="55dp" />
+
+    <!-- ellis -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ellis"
+        android:id="@+id/ellisStr"
+        android:layout_below="@id/kennedyStr"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ellisNotif"
+        android:layout_below="@id/kennedyNotif"
+        android:layout_toRightOf="@id/ellisStr"
+        android:layout_toEndOf="@id/ellisStr"
+        android:padding="11dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="55dp"
+        android:layout_marginEnd="55dp" />
+
+    <!-- vlb -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vlb"
+        android:id="@+id/vlbStr"
+        android:layout_below="@id/ellisStr"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vlbNotif"
+        android:layout_below="@id/ellisNotif"
+        android:layout_toRightOf="@id/vlbStr"
+        android:layout_toEndOf="@id/vlbStr"
+        android:padding="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="55dp"
+        android:layout_marginEnd="55dp" />
+
+    <!-- bac -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bac"
+        android:id="@+id/bacStr"
+        android:layout_below="@id/vlbStr"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bacNotif"
+        android:layout_below="@id/vlbNotif"
+        android:layout_toRightOf="@id/bacStr"
+        android:layout_toEndOf="@id/bacStr"
+        android:padding="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="55dp"
+        android:layout_marginEnd="55dp" />
+
+</RelativeLayout>
