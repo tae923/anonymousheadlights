@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <!-- Home Page Dictionary
+        Toolbar home_toolbar
+            TextView home_title
+
+        TextView app_title
+        ImageView anon_light
+
+        TextView today
+        ListView today_list
+
+        TextView tomorrow
+        ListView tomorrow_list
+
+        TextView overmorrow
+        ListView overmorrow_list
+
+        Button goToCalen
+    -->
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/home_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+
+        android:background="@color/colorPrimaryDark"
+        app:popupTheme="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
+
+        >
+
+            <TextView
+                android:id="@+id/home_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/homepage"
+
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/app_title"
+        android:layout_width="175dp"
+        android:layout_height="50dp"
+        android:text="@string/app_title"
+        android:textSize="14pt"
+        android:textColor="@android:color/black"
+
+        android:layout_below="@+id/home_toolbar"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+
+        />
+
+    <ImageView
+        android:id="@+id/anon_light"
+        android:src="@drawable/anonheadlight"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:contentDescription="@string/logoDescript"
+
+        android:layout_toRightOf="@+id/app_title"
+        android:layout_toEndOf="@+id/app_title"
+        android:layout_below="@+id/home_toolbar"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="60dp"
+    />
+
+    <TextView
+        android:id="@+id/today"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/today"
+        android:textSize="8pt"
+        android:textColor="@android:color/black"
+
+        android:layout_below = "@+id/app_title"
+        android:layout_centerHorizontal="false"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        />
+
+    <ListView
+        android:id="@+id/today_list"
+        android:layout_width="400dp"
+        android:layout_height="125dp"
+
+        android:layout_below="@+id/today"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/list_view_border"
+
+    />
+
+    <TextView
+        android:id="@+id/tomorrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tomorrow"
+        android:textSize="8pt"
+        android:textColor="@android:color/black"
+
+        android:layout_centerHorizontal="false"
+        android:layout_below="@+id/today_list"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        />
+
+    <ListView
+        android:id="@+id/tomorrow_list"
+        android:layout_width="400dp"
+        android:layout_height="125dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tomorrow"
+        android:background="@drawable/list_view_border"
+        />
+
+    <TextView
+        android:id="@+id/overmorrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/overmorrow"
+        android:textSize="8pt"
+        android:textColor="@android:color/black"
+
+        android:layout_centerHorizontal="false"
+        android:layout_below="@+id/tomorrow_list"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        />
+
+    <ListView
+        android:id="@+id/overmorrow_list"
+        android:layout_width="400dp"
+        android:layout_height="125dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/overmorrow"
+        android:background="@drawable/list_view_border"
+        />
+
+    <Button
+        android:id="@+id/goToCalen"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="@string/goToCalen"
+        android:textSize="7pt"
+
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

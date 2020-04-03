@@ -1,0 +1,18 @@
+    <!-- Home Page Dictionary
+        Toolbar home_toolbar
+            TextView home_title
+
+        TextView app_title
+        ImageView anon_light
+
+        TextView today
+        ListView today_list
+
+        TextView tomorrow
+        ListView tomorrow_list
+
+        TextView overmorrow
+        ListView overmorrow_list
+
+        Button goToCalen
+    -->
