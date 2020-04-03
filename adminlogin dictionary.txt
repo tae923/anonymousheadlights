@@ -1,0 +1,10 @@
+adminlogin.xml
+	TextView admin_title
+	TextView user_title
+	TextView pwrd_title
+	EditText  user_input
+	EditText pwrd_input
+	Button login_but
+	
+	
+	
