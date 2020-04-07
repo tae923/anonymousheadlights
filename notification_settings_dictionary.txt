@@ -21,4 +21,36 @@
 	BAC:
 	TextView bacStr
 	Switch bacNotif
+	
+	Founders:
+	TextView foundersStr
+	Switch foundersNotif
+	
+	Quad:
+	TextView quadStr
+	Switch quadNotif
+	
+	Good:
+	TextView goodStr
+	Switch goodNotif
+	
+	Halbritter:
+	TextView theatreStr
+	Switch theatreNotif
+	
+	Library:
+	TextView libraryStr
+	Switch libraryNotif
+	
+	Museum:
+	TextView museumStr
+	Switch museumNotif
+	
+	Gibbel:
+	TextView gibbelStr
+	Switch gibbleNotif
+	
+	Knox:
+	TextView knoxStr
+	Switch knoxNotif
 -->
