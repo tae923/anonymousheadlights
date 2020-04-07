@@ -147,4 +147,204 @@
         android:layout_marginRight="55dp"
         android:layout_marginEnd="55dp" />
 
+    <!-- founders -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/founders"
+        android:id="@+id/foundersStr"
+        android:layout_below="@id/bacStr"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/foundersNotif"
+        android:layout_below="@id/bacNotif"
+        android:layout_toRightOf="@id/foundersStr"
+        android:layout_toEndOf="@id/foundersStr"
+        android:padding="11dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="55dp"
+        android:layout_marginEnd="55dp" />
+
+    <!-- quad -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quad"
+        android:id="@+id/quadStr"
+        android:layout_below="@id/foundersStr"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/quadNotif"
+        android:layout_below="@id/foundersNotif"
+        android:layout_toRightOf="@id/quadStr"
+        android:layout_toEndOf="@id/quadStr"
+        android:padding="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="55dp"
+        android:layout_marginEnd="55dp" />
+
+    <!-- good -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/good"
+        android:id="@+id/goodStr"
+        android:layout_below="@id/quadStr"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/goodNotif"
+        android:layout_below="@id/quadNotif"
+        android:layout_toRightOf="@id/goodStr"
+        android:layout_toEndOf="@id/goodStr"
+        android:padding="12dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="55dp"
+        android:layout_marginEnd="55dp" />
+
+    <!-- theatre -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/theatre"
+        android:id="@+id/theatreStr"
+        android:layout_below="@id/goodStr"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/theatreNotif"
+        android:layout_below="@id/goodNotif"
+        android:layout_toRightOf="@id/theatreStr"
+        android:layout_toEndOf="@id/theatreStr"
+        android:padding="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="55dp"
+        android:layout_marginEnd="55dp" />
+
+    <!-- library -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/library"
+        android:id="@+id/libraryStr"
+        android:layout_below="@id/theatreStr"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/libraryNotif"
+        android:layout_below="@id/theatreNotif"
+        android:layout_toRightOf="@id/libraryStr"
+        android:layout_toEndOf="@id/libraryStr"
+        android:padding="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="55dp"
+        android:layout_marginEnd="55dp" />
+
+    <!-- museum -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/museum"
+        android:id="@+id/museumStr"
+        android:layout_below="@id/libraryStr"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/museumNotif"
+        android:layout_below="@id/libraryNotif"
+        android:layout_toRightOf="@id/museumStr"
+        android:layout_toEndOf="@id/museumStr"
+        android:padding="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="55dp"
+        android:layout_marginEnd="55dp" />
+
+    <!-- gibbel -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gibbel"
+        android:id="@+id/gibbelStr"
+        android:layout_below="@id/museumStr"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gibbelNotif"
+        android:layout_below="@id/museumNotif"
+        android:layout_toRightOf="@id/gibbelStr"
+        android:layout_toEndOf="@id/gibbelStr"
+        android:padding="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="55dp"
+        android:layout_marginEnd="55dp" />
+
+    <!-- knox -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/knox"
+        android:id="@+id/knoxStr"
+        android:layout_below="@id/gibbelStr"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/knoxNotif"
+        android:layout_below="@id/gibbelNotif"
+        android:layout_toRightOf="@id/knoxStr"
+        android:layout_toEndOf="@id/knoxStr"
+        android:padding="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="55dp"
+        android:layout_marginEnd="55dp" />
+    
 </RelativeLayout>
