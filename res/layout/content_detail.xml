@@ -14,7 +14,7 @@
     android:layout_height="match_parent"
       >
     <!-- Event Details Page Dictionary
-        Toolbar home_toolbar
+        Toolbar toolbar
 
         Button edit_button
         Button delete_button
@@ -65,7 +65,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
-        android:layout_marginLeft="150dp"
+        android:layout_marginLeft="110dp"
         android:layout_toRightOf="@id/edit_button"
         android:text="@string/string_delete" />
 <!--title and image-->
@@ -76,6 +76,7 @@
         android:layout_height="wrap_content"
         android:text="@string/ev_details"
         android:layout_below="@+id/delete_button"
+        android:layout_marginLeft="10dp"
         />
 
     <ImageView
@@ -94,25 +95,29 @@
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:text="@string/string_name"
-        android:layout_below="@+id/event_image"/>
+        android:layout_below="@+id/event_image"
+        android:layout_marginLeft="10dp"/>
     <TextView
         android:id="@+id/cal_list_name"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:layout_toRightOf="@id/prompt_evname"
-        android:layout_below="@id/event_image"/>
+        android:layout_below="@id/event_image"
+        android:layout_marginLeft="10dp"/>
 
     <TextView
         android:id="@+id/prompt_evbuilding"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:text="@string/string_building"
-        android:layout_below="@id/prompt_evname"/>
+        android:layout_below="@id/prompt_evname"
+        android:layout_marginLeft="10dp"/>
     <TextView android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:id="@+id/cal_list_building"
         android:layout_toRightOf="@id/prompt_evbuilding"
-        android:layout_below="@id/prompt_evname"/>
+        android:layout_below="@id/prompt_evname"
+        android:layout_marginLeft="10dp"/>
 
 
     <TextView
@@ -120,13 +125,15 @@
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:text="@string/string_room"
-        android:layout_below="@id/prompt_evbuilding"/>
+        android:layout_below="@id/prompt_evbuilding"
+        android:layout_marginLeft="10dp"/>
     <TextView
         android:id="@+id/cal_list_room"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:layout_toRightOf="@id/prompt_evroom"
-        android:layout_below="@id/prompt_evbuilding"/>
+        android:layout_below="@id/prompt_evbuilding"
+        android:layout_marginLeft="10dp"/>
 
 
     <TextView
@@ -134,25 +141,30 @@
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:text="@string/string_time"
-        android:layout_below="@id/prompt_evroom"/>
+        android:layout_below="@id/prompt_evroom"
+        android:layout_marginLeft="10dp"/>
     <TextView android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:id="@+id/cal_list_time"
         android:layout_toRightOf="@id/prompt_evtime"
-        android:layout_below="@id/prompt_evroom"/>
+        android:layout_below="@id/prompt_evroom"
+        android:layout_marginLeft="10dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/string_desc"
         android:id="@+id/prompt_evdesc"
-        android:layout_below="@id/prompt_evtime"/>
+        android:layout_below="@id/prompt_evtime"
+        android:layout_marginLeft="10dp"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/cal_list_desc"
         android:layout_toRightOf="@id/prompt_evdesc"
         android:layout_below="@id/prompt_evtime"
+        android:layout_marginLeft="10dp"
+
     />
 
 
