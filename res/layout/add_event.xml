@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".AddEvent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <!-- Add Event Page Dictionary
+            Toolbar toolbar
+
+            Button edit_button
+            Button delete_button
+
+            TextView ev_details
+            ImageView event_image
+
+            TextView prompt_evname
+            EditText cal_list_name
+
+            TextView prompt_evbuilding
+            EditText cal_list_building
+
+            TextView prompt_evroom
+            EditText cal_list_room
+
+            TextView prompt_evtime
+            EditText cal_list_time
+
+            TextView prompt_evdesc
+            EditText cal_list_desc
+
+            Button save_button
+        -->
+
+        <!--        <androidx.appcompat.widget.Toolbar-->
+        <!--            android:id="@+id/toolbar"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="?attr/actionBarSize"-->
+        <!--            android:background="?attr/colorPrimary"-->
+        <!--            app:popupTheme="@style/AppTheme.PopupOverlay" />-->
+
+
+
+        <Button
+            android:id="@+id/save_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/string_save"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="150dp"
+            />
+
+        <TextView
+            android:id="@+id/event_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ev_details"
+            android:layout_below="@+id/save_button"
+            android:layout_marginLeft="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/event_image"
+            android:layout_width="410dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/event_details"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/blu"
+            android:gravity="center_horizontal"
+            />
+
+        <!--Event Details-->
+        <TextView
+            android:id="@+id/prompt_evname"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/string_name"
+            android:layout_below="@+id/event_image"/>
+        <EditText
+            android:inputType="text|textCapWords|textAutoCorrect"
+            android:id="@+id/cal_list_name"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@id/prompt_evname"
+            android:layout_below="@id/event_image"
+            android:layout_marginLeft="10dp"
+            android:textSize="10dp"/>
+
+        <TextView
+            android:id="@+id/prompt_evbuilding"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/string_building"
+            android:layout_below="@id/prompt_evname"
+            android:layout_marginTop="20dp"/>
+        <EditText
+            android:inputType="text|textCapWords|textAutoCorrect"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/cal_list_building"
+            android:layout_toRightOf="@id/prompt_evbuilding"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/cal_list_name"
+            android:textSize="10dp"
+            />
+
+
+        <TextView
+            android:id="@+id/prompt_evroom"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/string_room"
+            android:layout_below="@id/prompt_evbuilding"
+            android:layout_marginTop="20dp"/>
+        <EditText
+            android:id="@+id/cal_list_room"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@id/prompt_evroom"
+            android:layout_below="@id/cal_list_building"
+            android:layout_marginLeft="10dp"
+            android:textSize="10dp"/>
+
+
+        <TextView
+            android:id="@+id/prompt_evtime"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/string_time"
+            android:layout_below="@id/prompt_evroom"
+            android:layout_marginTop="20dp"
+            />
+        <EditText
+            android:inputType="text|textCapWords|textAutoCorrect"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/cal_list_time"
+            android:layout_toRightOf="@id/prompt_evtime"
+            android:layout_below="@id/cal_list_room"
+            android:layout_marginLeft="10dp"
+            android:textSize="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/string_desc"
+            android:id="@+id/prompt_evdesc"
+            android:layout_below="@id/prompt_evtime"
+            android:layout_marginTop="20dp"/>
+        <EditText
+            android:inputType="text|textCapWords|textAutoCorrect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cal_list_desc"
+            android:layout_toRightOf="@id/prompt_evdesc"
+            android:layout_below="@id/cal_list_time"
+            android:layout_marginLeft="10dp"
+            android:textSize="10dp"
+            />
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>
