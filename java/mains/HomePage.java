@@ -14,7 +14,7 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+public class HomePage extends AppCompatActivity {
 
     TextView home_title;
     TextView app_title;
