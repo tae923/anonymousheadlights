@@ -282,7 +282,6 @@ public class NotificationSettings extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
         if (id == R.id.ad_login) {
             Intent intent = new Intent(getApplicationContext(), AdminLogin.class);
             startActivity(intent);
@@ -294,7 +293,7 @@ public class NotificationSettings extends AppCompatActivity {
             startActivity(intent);
             return true;
         }
-
+        //do nothing if notification settings is selected
         if (id == R.id.no_settings)
             return true;
 
