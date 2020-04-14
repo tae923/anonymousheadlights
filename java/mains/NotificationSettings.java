@@ -19,44 +19,9 @@ import android.widget.Toast;
 
 public class NotificationSettings extends AppCompatActivity {
 
-    TextView allNotifStr;
-    Switch allNotif;
-
-    TextView kennedyStr;
-    Switch kennedyNotif;
-
-    TextView ellisStr;
-    Switch ellisNotif;
-
-    TextView vlbStr;
-    Switch vlbNotif;
-
-    TextView bacStr;
-    Switch bacNotif;
-
-    TextView foundersStr;
-    Switch foundersNotif;
-
-    TextView quadStr;
-    Switch quadNotif;
-
-    TextView goodStr;
-    Switch goodNotif;
-
-    TextView theatreStr;
-    Switch theatreNotif;
-
-    TextView libraryStr;
-    Switch libraryNotif;
-
-    TextView museumStr;
-    Switch museumNotif;
-
-    TextView gibbelStr;
-    Switch gibbelNotif;
-
-    TextView knoxStr;
-    Switch knoxNotif;
+    TextView allNotifStr, kennedyStr, ellisStr, vlbStr, bacStr, foundersStr, quadStr, goodStr, theatreStr, libraryStr, museumStr, gibbelStr, knoxStr;
+    
+    Switch allNotif, kennedyNotif, ellisNotif, vlbNotif, bacNotif, foundersNotif, quadNotif, goodNotif, theatreNotif, libraryNotif, museumNotif, gibbelNotif, knoxNotif;
 
     //create preferences file and file editor
     SharedPreferences preferences = getSharedPreferences("NotificationPreferences",MODE_PRIVATE);
