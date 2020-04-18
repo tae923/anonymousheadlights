@@ -14,7 +14,7 @@ import android.widget.EditText;
 
 public class EditDetailed extends AppCompatActivity {
 
-    EditText room, building, description, time;
+    EditText name, room, building, description, time;
     Button save;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +23,7 @@ public class EditDetailed extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
    //     setSupportActionBar(toolbar);
 
+        name = (EditText) findViewById(R.id.cal_list_name);
         room = (EditText) findViewById(R.id.cal_list_room);
         building = (EditText) findViewById(R.id.cal_list_building);
         description = (EditText) findViewById(R.id.cal_list_desc);
